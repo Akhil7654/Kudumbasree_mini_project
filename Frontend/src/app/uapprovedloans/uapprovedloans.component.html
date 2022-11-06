@@ -1,0 +1,48 @@
+
+<div class="main">
+    <div class="container">
+      <div class="row ">
+          <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 g-3 ">
+              <div class="row">
+               
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                  <div class="container" >
+                      <br><br><br>
+                    <h2 >
+                      <small class="text-muted">APPROVED LOAN DETAILS</small>
+                    </h2>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body" *ngFor="let i of data">
+                              
+                              <p class="card-text">Loan Id : {{i.loanid}}</p><br>
+                              <p class="card-title">Loan Name : {{i.loanName}}</p><br>
+                              <p class="card-text">Applicant Name:{{i.name}}</p><br>
+                              <p class="card-text">Income :{{i.income}}</p><br>
+                              <p class="card-text">Aadhar No : {{i.aadhar}}</p><br>
+                              <p class="card-text">Pan Card : {{i.pan}}</p><br>
+                              <p class="card-text">Accpunt No : {{i.account}}</p><br>
+                              <p class="card-text">IFSC code : {{i.ifsc}}</p><br>
+                           
+                            
+                            </div>
+                          </div>
+                        </div>
+                        
+                       
+                        
+                          
+                          
+                        
+                        </div>
+                        
+                   
+                </div>
+          </div>
+              </div>
+      </div>
+  </div>
+  </div>
